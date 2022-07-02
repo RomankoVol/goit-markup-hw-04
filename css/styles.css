@@ -154,6 +154,11 @@ address {
   color: var(--secondary-text-color);
 }
 
+.contakt-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-contact-link:hover,
@@ -221,7 +226,7 @@ address {
   color: var(--accent-color);
 }
 
-/* features-title */
+/* Список переваг */
 
 .features-list {
   display: flex;
@@ -232,15 +237,19 @@ address {
   max-width: 270px;
 }
 
-.features-item::before {
-  display: block;
-  content: "";
+.features-icon {
+  align-items: center;
+}
+
+.features-icon-fon {
+  display: flex;
+  width: 270px;
   height: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin-bottom: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+  background-color: var(--team-background-color);
 }
 
 .features-title {
