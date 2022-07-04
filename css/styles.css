@@ -335,7 +335,9 @@ address {
 .social-link {
   width: 44px;
   height: 44px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   color: #afb1b8;
   background-color: #ffffff;
@@ -348,7 +350,6 @@ address {
 }
 
 .social-icon {
-  margin: 12px 0px 0px 12px;
   fill: currentColor;
 }
 
